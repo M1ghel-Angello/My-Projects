@@ -1,4 +1,4 @@
-SQL Injection Detector
+SQL INJECTION DETECTOR
 
 - scanner.py : The main detection tool. It crawls the target URL, finds forms and query parameters, and fuzzes them with common SQL injection payloads.
 - vulnerable_app.py : A Flask web application intentionally vulnerable to SQL injection (SQLite based) for testing purposes.
