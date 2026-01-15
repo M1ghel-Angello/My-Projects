@@ -1,4 +1,5 @@
 DETECTOR DE SQL INJECTION
+
 scanner.py: A ferramenta principal de detecção. Ela rastreia a URL alvo, encontra formulários e parâmetros de consulta, e os testa com payloads comuns de injeção SQL.
 
 vulnerable_app.py: Uma aplicação web Flask intencionalmente vulnerável a injeção SQL (baseada em SQLite) para fins de teste.
